@@ -49,10 +49,17 @@
 }
 
 .content {
-	background-image: url("../images/symphony.png");
+	background-image: url("../images/old_map_@2X.png");
 	margin-left: 100px;
 	margin-top: 40px;
-	float: left;
+	z-index: 1;
+	position: relative;
+}
+
+.bio {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	margin-left: 25px;
 }
 
 .main-section {
@@ -80,16 +87,15 @@
 
 .portfolio-gallery img {
 	height: 135px;
-	widows: 185px;
+	width: 185px;
 }
 
 .social-media {
-	float: right;
 	width: 270px;
 	background-color: #ffffff;
 	position: absolute;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	top: 0;
 	right: 0;
 }
