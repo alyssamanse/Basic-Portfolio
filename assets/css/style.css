@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/old_map_@2X.png);
+	background-image: url(../images/tex2res5_@2X.png);
 }
 
 .container {
@@ -124,6 +124,7 @@ body {
 	margin: 20px;
 	position: relative;
 	float: left;
+	z-index: 1;
 }
 
 .gallery h3 {
@@ -138,6 +139,7 @@ body {
 	text-align: center;
 	position: absolute;
 	float: left;
+	z-index: 2;
 }
 
 .social {
@@ -174,7 +176,6 @@ body {
 	width: 100%;
 	border-top: 5px solid #4aaaa5;
 	clear: both;
-
 }
 
 .footer-text {
